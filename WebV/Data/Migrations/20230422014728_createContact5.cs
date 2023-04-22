@@ -4,6 +4,8 @@
 
 namespace WebV.Data.Migrations
 {
+    //djt mê thang hung
+
     /// <inheritdoc />
     public partial class createContact5 : Migration
     {
