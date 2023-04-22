@@ -11056,19 +11056,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\buidu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BookStor\\WebV\\WebV.csproj",
+      "projectUniqueName": "D:\\BookStoreOnlinee\\WebV\\WebV.csproj",
       "projectName": "WebV",
-      "projectPath": "D:\\BookStor\\WebV\\WebV.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\BookStor\\WebV\\obj\\",
+      "projectPath": "D:\\BookStoreOnlinee\\WebV\\WebV.csproj",
+      "packagesPath": "C:\\Users\\buidu\\.nuget\\packages\\",
+      "outputPath": "D:\\BookStoreOnlinee\\WebV\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\buidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
