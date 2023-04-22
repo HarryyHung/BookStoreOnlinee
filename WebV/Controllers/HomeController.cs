@@ -19,7 +19,9 @@ namespace WebV.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            //đáasdsadas
+            var books = _context.Books.ToList();
+            return View(books);
         }
 
         public async Task<IActionResult> Privacy(string searchString)
