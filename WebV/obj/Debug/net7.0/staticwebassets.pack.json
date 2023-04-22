@@ -9,8 +9,36 @@
       "PackagePath": "staticwebassets\\assets\\favicon.ico"
     },
     {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\ion.rangeSlider.min.css",
+      "PackagePath": "staticwebassets\\css\\ion.rangeSlider.min.css"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
       "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\style1.css",
+      "PackagePath": "staticwebassets\\css\\style1.css"
     },
     {
       "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\css\\styles.css",
@@ -19,6 +47,86 @@
     {
       "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\b1.jpg",
+      "PackagePath": "staticwebassets\\images\\b1.jpg"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\b2.jpg",
+      "PackagePath": "staticwebassets\\images\\b2.jpg"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\c1.jpg",
+      "PackagePath": "staticwebassets\\images\\c1.jpg"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\c2.jpg",
+      "PackagePath": "staticwebassets\\images\\c2.jpg"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\c3.jpg",
+      "PackagePath": "staticwebassets\\images\\c3.jpg"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\cat1.png",
+      "PackagePath": "staticwebassets\\images\\cat1.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\cat2.png",
+      "PackagePath": "staticwebassets\\images\\cat2.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\cat3.png",
+      "PackagePath": "staticwebassets\\images\\cat3.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\cat4.png",
+      "PackagePath": "staticwebassets\\images\\cat4.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\cat5.png",
+      "PackagePath": "staticwebassets\\images\\cat5.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\cat6.png",
+      "PackagePath": "staticwebassets\\images\\cat6.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\contact-img.jpg",
+      "PackagePath": "staticwebassets\\images\\contact-img.jpg"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\contact-img.png",
+      "PackagePath": "staticwebassets\\images\\contact-img.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\images\\slider-img.png",
+      "PackagePath": "staticwebassets\\images\\slider-img.png"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\js\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\js\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
     },
     {
       "Id": "D:\\BookStoreOnlinee\\WebV\\wwwroot\\js\\scripts.js",
