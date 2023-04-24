@@ -59,24 +59,48 @@
                             <li class="nav-item active">
                                 <a class="nav-link pl-lg-0" asp-area="" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Books" asp-action="Index">Manager Book</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Categories" asp-action="Index">Manager Category</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">All Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="Create">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="ViewCart">Cart</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="ViewOrder">My Order</a>
-                            </li>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Books" asp-action="Index">Manager Book</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Categories" asp-action="Index">Manager Category</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">All Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="Create">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="ViewCart">Cart</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="ViewOrder">My Order</a>
+                                </li>
+                            }
+                            @if (User.IsInRole("Staff"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="Create">Contact</a>
+                                </li>
+                            }
+                            @if (User.IsInRole("User"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">All Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="Create">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="ViewCart">Cart</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="ViewOrder">My Order</a>
+                                </li>
+                            }
                         </ul>
                         @*<form class="d-flex">
                             <button class="btn btn-outline-light" type="submit">
