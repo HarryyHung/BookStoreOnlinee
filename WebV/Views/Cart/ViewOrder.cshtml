@@ -32,7 +32,7 @@
                                         <th>Product Name</th>
                                         <th>Unit Price</th>
                                         <th>Quantity</th>
-
+                                        <th>Customer</th>
                                         <th style="width: 50px;"></th>
                                     </tr>
                                 </thead>
@@ -53,6 +53,9 @@
                                             </td>
                                             <td>
                                                 @item.Quantity
+                                            </td>
+                                            <td>
+                                                @User.Identity.Name
                                             </td>
                                         </tr>
                                     }

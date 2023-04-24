@@ -68,6 +68,7 @@ namespace WebV.Controllers
         public IActionResult ViewCart()
         {
             var categories = _context.Categories.ToList();
+            ViewBag.CartUserName = User.Identity.Name;
             ViewBag.Categories = categories;
             return View(GetCarts());
         }

@@ -71,7 +71,7 @@
                                     <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">All Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="Create">Contact</a>
+                                    <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="">Contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="ViewCart">Cart</a>
@@ -83,7 +83,7 @@
                             @if (User.IsInRole("Staff"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="Create">Contact</a>
+                                    <a class="nav-link" asp-area="" asp-controller="Contacts" asp-action="">Contact</a>
                                 </li>
                             }
                             @if (User.IsInRole("User"))
