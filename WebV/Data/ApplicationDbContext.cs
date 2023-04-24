@@ -13,5 +13,6 @@ namespace WebV.Data
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
