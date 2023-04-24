@@ -243,6 +243,9 @@
                                     <div class="order_total_amount">@(total.ToString("n0"))</div>
                                 </div>
                             </div>
+                            <div>
+                                <a asp-Controller="Cart" asp-action="RemoveCart" asp-route-bookid="@cart.book.BookId" class="btn btn-danger">Delete</a>
+                            </div>
                         }
                         <div class="cart_buttons">
                             <a type="submit" asp-controller="Cart" asp-action="Checkout" class="btn btn-success">Order confirmation product</a>

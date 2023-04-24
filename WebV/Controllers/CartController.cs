@@ -129,6 +129,12 @@ namespace WebV.Controllers
                 };
                 _context.Orders.Add(order);
                 _context.SaveChanges();
+                var book = _context.Books.Find(cart[i].book.BookId);
+                if (book != null)
+                {
+                    book.Quantity -= cart[i].Quantity;
+                    _context.SaveChanges();
+                }
             }
             ClearCart();
             return RedirectToAction(nameof(ViewOrder));
