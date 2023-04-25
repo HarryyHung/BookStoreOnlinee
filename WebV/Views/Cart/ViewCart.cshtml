@@ -263,6 +263,14 @@ else{
     <p style="text-align:center" class="alert alert-danger">Please check back or add to cart a new product!</p>
     <a asp-controller="Cart" asp-action="Index" class="btn btn-success" style="text-align:center; margin-left: 45%">Back to Shopping</a>
 }
+
+@if (TempData.ContainsKey("OutOfStockNotification"))
+{
+    <div class="alert alert-warning">
+        @TempData["OutOfStockNotification"]
+    </div>
+}
+
 <script type="text/javascript">
     var elems = document.getElementsByClassName('Checkout');
     var confirmIt = function (e) {

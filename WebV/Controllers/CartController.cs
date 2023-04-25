@@ -52,6 +52,15 @@ namespace WebV.Controllers
             {
                 return NotFound();
             }
+
+            // Check if the book is out of stock
+            if (book.Quantity <= 0)
+            {
+                // Return a notification indicating that the item is out of stock
+                TempData["OutOfStockNotification"] = "This item is currently out of stock.";
+                return RedirectToAction(nameof(ViewCart));
+            }
+
             var cart = GetCarts();
             var cart1 = cart.Find(b => b.book.BookId == id);
             if (cart1 != null)

@@ -5,6 +5,8 @@ using WebV.Models;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+//builder.Services.AddDbContext<WebVContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("WebVContext") ?? throw new InvalidOperationException("Connection string 'WebVContext' not found.")));
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("WebV") ?? throw new InvalidOperationException("Connection string 'WebVContext' not found.")));
 
